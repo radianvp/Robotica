@@ -22,7 +22,7 @@ void setup() {
 void loop() {
   Serial.println("\nHi Arduino this is Homework Lab1.......(◔ ◡ ◔)/");
   Serial.println("\nArduino says: estoy en Loop");
-  delay(3000);
+  delay(4000);
   Serial.println("Arduino says: LED ON");
   digitalWrite(DP13, HIGH);
   delay(2000);
