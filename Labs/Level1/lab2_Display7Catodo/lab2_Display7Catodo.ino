@@ -1,17 +1,3 @@
-/*
-<Robotica>
- - Nivel: 1 
- - Grupo E
- - Prof. Claudio Ibañéz
- - Adrian
-<Homework-2>
- - Lab Working with DISPLAY 7 Common Catod Arduino's
- - We will interact with Arduino's integrated DISPLAY 7 using proto.
- - [Working Display 7 Segment Common Cathode](https://www.youtube.com/watch?v=CT3YV5_F54k)
- References:
-   [Uso de Protoboard](https://www.youtube.com/watch?v=0YENLKaWUJs)
-*/
-
 int OPD13 = 13;
 int OPDDP = 9;
 int OPD8G = 8;
@@ -47,6 +33,17 @@ void punto(int duracion){
   delay(duracion);
 }
 
+void numeroCero(int duracion){
+   // progrmcion display
+  digitalWrite(OPD8G, LOW);
+  digitalWrite(OPD7F, HIGH);
+  digitalWrite(OPD6E, HIGH);
+  digitalWrite(OPD5D, HIGH);
+  digitalWrite(OPD4C, HIGH);
+  digitalWrite(OPD3B, HIGH);
+  digitalWrite(OPD2A, HIGH);
+  delay(duracion);
+}
 void numeroUno(int duracion){
    // progrmcion display
   digitalWrite(OPD8G, LOW);
@@ -169,6 +166,8 @@ void loop()
   delay(1000); // Wait for 1000 millisecond(s)
   
   int duracion = 1000;
+  numeroCero(duracion);
+  apagar();
   numeroUno(duracion);
   apagar();
   numeroDos(duracion);
