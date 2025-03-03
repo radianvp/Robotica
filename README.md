@@ -6,3 +6,5 @@ Robotica Level 1
 - Monitoring Serial Messages [video here](https://www.youtube.com/watch?v=bLLMwIf6PHY)
 #### [Lab 2: Working with DISPLAY 7 Common Catod Arduino's](Labs/Level1/lab2_Display7Catodo/lab2_Display7Catodo.ino)
 - Working with DISPLAY [video here](https://www.youtube.com/watch?v=CT3YV5_F54k)
+#### [Lab 3: Working with Gas Sensor ](Labs/Level1/lab3_Alcoholimetro/lab3_Alcoholimetro/lab3_Alcoholimetro.ino)
+- Working with DISPLAY [video here](https://www.youtube.com/shorts/m-O16lgUlB8)

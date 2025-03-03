@@ -1,3 +1,16 @@
+/*
+<Robotica>
+ - Nivel: 1 
+ - Grupo E
+ - Prof. Claudio Ibañéz
+ - RadianV
+<Homework-2>
+ - Lab Working with DISPLAY 7 Common Catod Arduino's
+ - We will interact with Arduino's integrated DISPLAY 7 using proto.
+ - [Working Display 7 Segment Common Cathode](https://www.youtube.com/watch?v=CT3YV5_F54k)
+ References:
+   [Uso de Protoboard](https://www.youtube.com/watch?v=0YENLKaWUJs)
+*/
 int OPD13 = 13;
 int OPDDP = 9;
 int OPD8G = 8;
